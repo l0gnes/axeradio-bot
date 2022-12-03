@@ -31,7 +31,7 @@ class AxeRadioModule(commands.Cog):
 
         # Super secret AxeRadio livestream link
         source = discord.FFmpegPCMAudio(
-            "http://n03.radiojar.com/433gq6uurhruv.m4a?rj-ttl=4&1670081639=&rj-tok=AAABhNiqVj0AaXNwHDssHfUUKg",
+            "http://n03.radiojar.com/433gq6uurhruv.m4a",
             before_options = "-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5",
             options= "-vn"
         )
